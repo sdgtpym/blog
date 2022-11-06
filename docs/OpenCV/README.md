@@ -12,6 +12,8 @@ CV_Contrib 源码下载地址：https://github.com/opencv/opencv_contrib/tags
 
 ## Window 下使用CMake编译核心源码
 
+一下步骤均是在安装好CMake和Visual Studio 2019 的条件下完成的，若不知道如何安装CMake和Visual Studio 2019，请自行百度。
+
 打开CMake，选择源码位置，我存储CV源码的位置在E盘：E:/01Projects/05OpenCVSource/opencv-4.6.0；为了方便管理CMake的文件，我在源码的同级目录下创建了一个build文件夹，选择编译结果的存储位置：E:/01Projects/05OpenCVSource/build。
 
 ![select path](../images/OpenCV/opencv_cmake_configure_path_setting.png)
@@ -40,11 +42,16 @@ CV_Contrib 源码下载地址：https://github.com/opencv/opencv_contrib/tags
 
 ![generate finished install dir](../images/OpenCV/opencv_cmake_build_visualstudio_sln_path.png)
 
+
+![build_install](../images/OpenCV/opencv_vs2019_build_install.png)
+
+![build_install](../images/OpenCV/opencv_vs2019_build_install_contextmenu_build.png)
+
 编译完成之后，所有的库的头文件和动态链接库文件会拷贝到 build/install文件夹中。
 
 ![lib_path](../images/OpenCV/opencv_install_path.png)
 
-
+以上就是Windows下编译OpenCV源码的方法。
 
 
 
